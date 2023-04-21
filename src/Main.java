@@ -17,7 +17,7 @@ public class Main {
             return str;
         };
         System.out.println(stringReverter.revert("Собака"));
-        list.forEach(str-> System.out.print(str));
+        list.forEach(System.out::print);
 
 
 
